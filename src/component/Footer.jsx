@@ -9,9 +9,9 @@ const Footer = () => {
       
       {/* Links */}
       <div className='flex flex-col'>
-        <Link to="/about">About Us</Link>
-        <Link to="/contact">Contact Information</Link>
-        <Link to="/faq">Frequently Asked Questions (FAQ)</Link>
+        <span><Link to="/about">About Us</Link></span>
+        <span><Link to="/contact">Contact Information</Link></span>
+        <span><Link to="/faq">Frequently Asked Questions (FAQ)</Link></span>
       </div>
     </footer>
   );
