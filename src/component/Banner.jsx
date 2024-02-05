@@ -18,7 +18,6 @@ const BannerComponent = () => {
   };
 
   useEffect(() => {
-    console.log('useEffect1')
     getBannerData();
   }, []);
 
